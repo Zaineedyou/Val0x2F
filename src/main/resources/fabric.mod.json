@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "val0x2f",
+  "version": "${version}",
+  "name": "Val0x2F",
+  "description": "Client-side persistent chunk cache and mobile-focused particle suppression for constrained devices.",
+  "authors": ["Val0x2F"],
+  "contact": {
+    "sources": "https://github.com/Zaineedyou/Val0x2F"
+  },
+  "license": "ARR",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.val0x2f.chunklod.core.ChunkLodMod"
+    ]
+  },
+  "mixins": [
+    {
+      "config": "val0x2f.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "sodium": "*",
+    "lithium": "*",
+    "c2me": "*",
+    "betterrenderdistance": "*",
+    "entityculling": "*",
+    "cullleaves": "*",
+    "moreculling": "*",
+    "iris": "*"
+  }
+}

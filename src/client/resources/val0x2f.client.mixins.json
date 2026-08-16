@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "com.val0x2f.chunklod.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "ClientLevelBlockStateMixin",
+    "ParticleEngineMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
